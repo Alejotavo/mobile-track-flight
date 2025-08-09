@@ -17,7 +17,7 @@ return (
         <NavigationContainer>
           <Stack.Navigator>
             <Stack.Screen name="Search" component={UseSearchContent} />
-            <Stack.Screen name="Result" component={ResultScreen} />
+            <Stack.Screen name="Result" options={{ animation: 'slide_from_right'}} component={ResultScreen} />
           </Stack.Navigator>
         </NavigationContainer>
         <StatusBar style="auto" />
